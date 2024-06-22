@@ -168,6 +168,14 @@ section {
     min-height: fit-content;
 }
 
+section:before {
+    content: "";
+    display: block;
+    height: 20vh;
+    margin-top: -13vh; 
+    visibility: hidden;
+}
+
 .section-container {
     display: flex;
 }
@@ -294,6 +302,16 @@ section {
 }
 
 /* ====================== ABOUT ME - SECTION =========================== */
+#about_me {
+    position: relative;
+}
+
+.title-about {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;  
+    color: #163f62;
+}
 
 .education_section {
     display: flex;
@@ -341,3 +359,54 @@ section {
  .school-subtitle {
     font-size: 1rem;
  }
+
+.certification-cards{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.certification-container {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-certification{
+    justify-content: center;
+    margin-top: 3rem;
+    /* margin-bottom: 0.1rem; */
+}
+
+.text-certification{
+    text-align: center;
+    color: #163f62;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.certification-cards, .certification-container {
+    display: flex;
+}
+
+.certification-details{
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: rgb(53, 53, 15) 0.1rem solid;
+    text-align: center;
+}
+
+.certification-text {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+ .icon-certifications {
+    cursor: pointer;
+    height: 6rem;
+}
