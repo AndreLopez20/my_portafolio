@@ -220,7 +220,7 @@ section:before {
 .section_text_p1 {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
-  color: black;
+  color: #4E4E4E;
 }
 
 .title {
@@ -361,6 +361,7 @@ section:before {
 .school-title {
   font-size: 1.5em;
   font-weight: bold;
+  color: #163f62;
 }
 
 .school-subtitle {
@@ -434,11 +435,12 @@ section:before {
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .icon-program {
   cursor: pointer;
-  height: 6rem;
+  height: 4.5rem;
   border-radius: 10%;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
