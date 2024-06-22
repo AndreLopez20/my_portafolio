@@ -195,6 +195,7 @@ section:before {
   width: 400px;
   filter: drop-shadow(12px 6px, 12px black);
   margin: auto 0;
+  margin-left: -10vh;
 }
 
 .section_pic-container img {
@@ -415,7 +416,6 @@ section:before {
 }
 
 .icon-certifications {
-  cursor: pointer;
   height: 6rem;
 }
 
@@ -439,7 +439,6 @@ section:before {
 }
 
 .icon-program {
-  cursor: pointer;
   height: 4.5rem;
   border-radius: 10%;
   margin-top: 1.5rem;
